@@ -18,6 +18,7 @@ class Main{
 		*/
 		Scanner sc = new Scanner(System.in);
 		System.out.println();
+		// command line propts using the Integer class also called a wrapper class
 		int first_num = Integer.parseInt(args[0]);
 		
 		int second_num = Integer.parseInt(args[1]);
