@@ -18,5 +18,10 @@ class Main{
 		*/
 		Scanner sc = new Scanner(System.in);
 		System.out.println();
+		int first_num = Integer.parseInt(args[0]);
+		
+		int second_num = Integer.parseInt(args[1]);
+		int result = first_num +second_num;
+		System.out.println("The sum is " +result);
 	}
 }
