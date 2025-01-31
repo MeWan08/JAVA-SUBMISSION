@@ -1,0 +1,4 @@
+//Main.java
+
+class Main{
+}
