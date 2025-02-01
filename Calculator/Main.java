@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/* 
+Kartik Mehta
+23070126056
+AIML A3
+*/
 public class Main {
     public static void main(String[] args) {
         
