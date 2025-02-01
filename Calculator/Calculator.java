@@ -25,4 +25,14 @@ class Calculator{
 		int quo = numbers[0] / numbers[1];
 		return quo;
 	}
+	void fibonacci(int n){
+		int a =0, b=1, c;
+		for(int i=0;i<n;i++){
+			System.out.println(a+ "");
+			c = a+b;
+			a=b;
+			b=c;
+		}
+		System.out.println();
+	}
 }
