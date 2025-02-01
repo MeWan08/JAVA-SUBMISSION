@@ -35,4 +35,11 @@ class Calculator{
 		}
 		System.out.println();
 	}
+	double sumOfArray(double[] array){
+		double sum = 0;
+		for(double num:array){
+			sum += num;
+		}
+		return sum;
+	}
 }
