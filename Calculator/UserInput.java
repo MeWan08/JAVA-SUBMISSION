@@ -10,4 +10,17 @@ class UserInput{
 	numbers[1] = sc.nextInt();
 	return numbers;
 	}
+	public double[] getArrayInput() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number of elements in the array: ");
+        int size = sc.nextInt();
+        
+        double[] array = new double[size];
+        System.out.println("Enter the elements of the array:");
+        for (int i = 0; i < size; i++) {
+            array[i] = sc.nextDouble();
+        }
+
+        return array;
+    }
 }	
