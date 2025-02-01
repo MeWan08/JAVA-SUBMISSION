@@ -10,5 +10,6 @@ public class Main {
         int choice;
         do {
         } while(choice != 10);
+        sc.close();
     }
 }
