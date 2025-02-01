@@ -19,10 +19,10 @@ class Calculator{
 		int product = numbers[0] * numbers[1];
 		return product;
 	}
-	int Quotient(){
+	int quotient(){
 		UserInput ui = new UserInput();
 		int[] numbers = ui.userInput();
-		int Quo = numbers[0] / numbers[1];
-		return Quo;
+		int quo = numbers[0] / numbers[1];
+		return quo;
 	}
 }
