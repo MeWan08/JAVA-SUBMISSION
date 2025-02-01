@@ -22,6 +22,8 @@ public class Main {
             System.out.println("10. Exit");
             
             choice = sc.nextInt();
+            switch(choice) {
+            }
         } while(choice != 10);
         sc.close();
     }
