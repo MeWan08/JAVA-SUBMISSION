@@ -46,12 +46,12 @@ public class Main {
 
                 case 4:
                     // Division
-                    double divisionResult = cal.quotient();
-                    System.out.println("Division result: " + divisionResult);
+                    cal.quotient();
                     break;
 
 		case 5:
                     // Fibonacci Sequence
+			System.out.println("Enter the length of the fibonacci sequence:");
                     int n = sc.nextInt();
                     cal.fibonacci(n);
                     break;
