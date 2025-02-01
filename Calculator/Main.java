@@ -8,6 +8,7 @@ public class Main {
         UserInput ui = new UserInput();
         
         int choice;
+        
         do {
             System.out.println("Select one of the following:");
             System.out.println("1. Addition"); 
@@ -22,6 +23,7 @@ public class Main {
             System.out.println("10. Exit");
             
             choice = sc.nextInt();
+            
             switch(choice) {
                 case 1:
                     // Addition
@@ -92,6 +94,7 @@ public class Main {
                     break;
             }
         } while(choice != 10);
+        
         sc.close();
     }
 }
