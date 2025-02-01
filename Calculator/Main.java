@@ -7,5 +7,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         UserInput ui = new UserInput();
         
+        int choice;
     }
 }
