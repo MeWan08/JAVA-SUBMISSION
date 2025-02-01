@@ -54,4 +54,9 @@ class Calculator{
 		}
 		return sumSquaredDifferences / array.length;
 	}
+	double stdDeviationOfArray(double[] array){
+		double variance = varianceOfArray(array);
+		return Math.sqrt(variance);
+	}
+
 }
