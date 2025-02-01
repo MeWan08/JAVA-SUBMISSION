@@ -8,5 +8,7 @@ public class Main {
         UserInput ui = new UserInput();
         
         int choice;
+        do {
+        } while(choice != 10);
     }
 }
