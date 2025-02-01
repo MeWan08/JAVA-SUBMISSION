@@ -46,4 +46,12 @@ class Calculator{
 		double sum = sumOfArray(array);
 		return sum/array.length;
 	}
+	double varianceOfArray(double[] array){
+		double mean = meanOfArray(array);
+		double sumSquaredDifferences = 0;
+		for(double i: array){
+			sumSquaredDifferences += Math.pow(i-mean, 2);
+		}
+		return sumSquaredDifferences / array.length;
+	}
 }
