@@ -19,11 +19,19 @@ class Calculator{
 		int product = numbers[0] * numbers[1];
 		return product;
 	}
-	int quotient(){
+	void quotient(){
 		UserInput ui = new UserInput();
 		int[] numbers = ui.userInput();
-		int quo = numbers[0] / numbers[1];
-		return quo;
+		double divisionResult =0;
+		if(numbers[1]==0){
+			System.out.println("Division by zero.Error");
+		}
+		else{
+			int quo = numbers[0] / numbers[1];
+			System.out.println("Division result: " + divisionResult);
+		}
+		
+                   
 	}
 	void fibonacci(int n){
 		int a =0, b=1, c;
