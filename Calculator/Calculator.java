@@ -42,4 +42,8 @@ class Calculator{
 		}
 		return sum;
 	}
+	double meanOfArray(double[] array){
+		double sum = sumOfArray(array);
+		return sum/array.length;
+	}
 }
