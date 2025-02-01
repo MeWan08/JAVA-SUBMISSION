@@ -22,12 +22,11 @@ class Calculator{
 	void quotient(){
 		UserInput ui = new UserInput();
 		int[] numbers = ui.userInput();
-		double divisionResult =0;
 		if(numbers[1]==0){
 			System.out.println("Division by zero.Error");
 		}
 		else{
-			int quo = numbers[0] / numbers[1];
+			double divisionResult=numbers[0] / numbers[1];
 			System.out.println("Division result: " + divisionResult);
 		}
 		
