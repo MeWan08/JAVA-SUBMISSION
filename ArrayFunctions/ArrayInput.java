@@ -12,5 +12,16 @@ class ArrayInput{
 		}
 		return array;	
 	}
+	ArrayList<Integer> userInputList(){
+		ArrayList<Integer> list = new ArrayList<>();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the length of the arraylist:");
+		int a = sc.nextInt();
+		System.out.println("Enter" + a +  "numbers:");
+		for(int i = 0;i<a;i++){
+			int num = sc.nextInt();
+			list.add(num);
+		}
+		return list;
 	}
 }
