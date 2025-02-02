@@ -41,5 +41,17 @@ class ArrayFunctions{
 		}
 		displayList(even);
 		displayList(odd);
-}
+	}
+	int ClosestNeighbour(int[] array){
+			int min = Integer.MAX_VALUE;
+			int index = 0;
+			for(int i=0;i<array.length-1;i++){
+				int difference = Math.abs(array[i+1] - array[i]);
+				if(min>difference){
+					min = difference;
+					index = i;
+				}
+			}
+			return index;
+	}
 }
