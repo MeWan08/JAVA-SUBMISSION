@@ -1,5 +1,10 @@
 //Main.java
 import java.util.*;
+/*
+Kartik Mehta
+23070126056
+AIML A3
+*/
 class Main{
 	public static void main(String[] args){
 		ArrayInput ai = new ArrayInput();
