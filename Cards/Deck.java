@@ -44,4 +44,16 @@ class Deck{
 	public void shuffleDeck(){
 		Collections.shuffle(deck);
 	}
+	public void randomCards(){
+		shuffleDeck();
+		Cards first = deck.get(0);
+		Cards second = deck.get(1);
+		System.out.println(first);
+		System.out.println(second);
+		deck.remove(first);
+		deck.remove(second);
+		System.out.println("The current deck size is "+deck.size());
+		
+	}
+	
 }
