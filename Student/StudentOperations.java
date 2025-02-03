@@ -16,4 +16,10 @@ class StudentOperations{
 			s1.display();
 		}
 	}
+	public void removeStudent(Student student){
+        students.remove(student);
+        System.out.println("Student Removed Successfully");
+    }
+	
+	
 }
