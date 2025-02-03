@@ -26,4 +26,8 @@ class Student{
     public long getPrn(){
         return prn;
     }
+
+    public void setPrn(long prn){
+        this.prn = prn;
+    }
 }
