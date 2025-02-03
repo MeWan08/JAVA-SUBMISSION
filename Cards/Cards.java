@@ -5,4 +5,9 @@ class Cards{
 	String rank;
 	String colour;
 
+	public Cards(String rank, String suit, String colour){
+		this.rank = rank;
+		this.suit = suit;
+		this.colour = colour;
+	}
 }
