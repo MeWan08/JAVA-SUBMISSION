@@ -33,4 +33,11 @@ class Deck{
 		}
 		System.out.println("The count of the deck is:" + deck.size());
 	}
+	public void displayDeck(){
+		for(Cards card:deck){
+			System.out.println(card);	
+		}
+
+		System.out.println("The current deck size is "+deck.size());
+	}
 }
