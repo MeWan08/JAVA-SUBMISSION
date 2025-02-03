@@ -30,4 +30,8 @@ class Student{
     public void setPrn(long prn){
         this.prn = prn;
     }
+
+    public double getGpa(){
+        return gpa;
+    }
 }
