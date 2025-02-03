@@ -10,4 +10,8 @@ class Cards{
 		this.suit = suit;
 		this.colour = colour;
 	}
+	public String toString(){
+		return colour+ " " +rank + " of "+ suit;
+	}
+	
 }
