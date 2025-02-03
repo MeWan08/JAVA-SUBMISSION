@@ -14,4 +14,8 @@ class Student{
         this.branch = branch;
         this.batch = batch;
     }
+
+    public String getName(){
+        return name;
+    }
 }
