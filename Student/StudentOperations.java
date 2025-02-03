@@ -6,4 +6,9 @@ class StudentOperations{
 	public StudentOperations(){
 		this.students = new ArrayList<>();
 	}
+	// here 'Student' is the datatype, 'students' is the araylist and 'student' is the new entry.
+	public void addStudents(Student student){
+		students.add(student);
+		System.out.println("Student added.");
+	}
 }
