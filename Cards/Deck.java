@@ -40,4 +40,8 @@ class Deck{
 
 		System.out.println("The current deck size is "+deck.size());
 	}
+	// class to work on collections like arrays, hash, arraylists, etc.
+	public void shuffleDeck(){
+		Collections.shuffle(deck);
+	}
 }
