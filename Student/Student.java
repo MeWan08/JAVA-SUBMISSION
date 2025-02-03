@@ -46,4 +46,8 @@ class Student{
     public void setBatch(String batch){
         this.batch = batch;
     }
+
+    public String getBranch(){
+        return branch;
+    }
 }
