@@ -45,5 +45,9 @@ class Main{
 
         Student student = new Student(name,prn,gpa,batch,branch);
         operations.addStudents(student);
+        
+        operations.displayStudents();
+        operations.removeStudent(student);
+        operations.displayStudents();
     }
 }
