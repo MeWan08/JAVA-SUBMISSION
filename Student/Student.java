@@ -38,4 +38,8 @@ class Student{
     public void setGpa(double gpa){
         this.gpa = gpa;
     }
+
+    public String getBatch(){
+        return batch;
+    }
 }
