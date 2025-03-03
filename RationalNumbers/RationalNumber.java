@@ -28,4 +28,9 @@ public class RationalNumber {
         int den = this.denominator*other.denominator;
         return new RationalNumber(num, den);
     }
+    public RationalNumber multiply(RationalNumber other){
+        int num = (this.numerator*other.numerator);
+        int den = this.denominator*other.denominator;
+        return new RationalNumber(num, den);
+    }
 }
