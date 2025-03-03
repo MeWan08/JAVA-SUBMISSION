@@ -33,4 +33,10 @@ public class RationalNumber {
         int den = this.denominator*other.denominator;
         return new RationalNumber(num, den);
     }
+    public void compare(RationalNumber other){
+        if(this.numerator == other.numerator && this.denominator==other.denominator){
+            System.out.println("Both the rational number are same.");
+        }
+        System.out.println("The rational numbers are different");
+    }
 }
