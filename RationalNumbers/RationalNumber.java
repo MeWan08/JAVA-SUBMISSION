@@ -39,4 +39,9 @@ public class RationalNumber {
         }
         System.out.println("The rational numbers are different");
     }
+    // overriding the tostring function as it will give the output in string format
+    // the default to string function will give the memory address of the object as output.
+    public String toString(){
+        return numerator+"/"+denominator;
+    }
 }
