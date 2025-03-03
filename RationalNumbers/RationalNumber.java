@@ -11,4 +11,11 @@ public class RationalNumber {
         this.denominator = denominator;
         simplify();
     }
+    private void simplify(){
+        BigInteger num = BigInteger.valueOf(numerator);
+        BigInteger den = BigInteger.valueOf(denominator);
+        BigInteger gcd = num.gcd(den);
+        numerator = numerator/gcd.intValue();
+        denominator  = denominator/gcd.intValue();
+    }
 }
