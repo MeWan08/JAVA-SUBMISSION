@@ -18,4 +18,9 @@ public class RationalNumber {
         numerator = numerator/gcd.intValue();
         denominator  = denominator/gcd.intValue();
     }
+    public RationalNumber add(RationalNumber other){
+        int num = (this.numerator*other.denominator)+(this.denominator*other.numerator);
+        int den = this.denominator*other.denominator;
+        return new RationalNumber(num, den);
+    }
 }
