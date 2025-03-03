@@ -23,4 +23,9 @@ public class RationalNumber {
         int den = this.denominator*other.denominator;
         return new RationalNumber(num, den);
     }
+    public RationalNumber subtract(RationalNumber other){
+        int num = (this.numerator*other.denominator)-(this.denominator*other.numerator);
+        int den = this.denominator*other.denominator;
+        return new RationalNumber(num, den);
+    }
 }
