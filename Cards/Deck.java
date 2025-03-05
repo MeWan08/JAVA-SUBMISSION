@@ -55,5 +55,14 @@ class Deck{
 		System.out.println("The current deck size is "+deck.size());
 		
 	}
+	public void random5Cards(){
+		shuffleDeck();
+		for(int i=0; i<5; i++){
+			Cards card = deck.get(i);
+			System.out.println(card);
+			deck.remove(card);
+		}
+		System.out.println("The current deck size is "+deck.size());
+	}
 	
 }
