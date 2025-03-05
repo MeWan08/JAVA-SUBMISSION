@@ -64,5 +64,9 @@ class Deck{
 		}
 		System.out.println("The current deck size is "+deck.size());
 	}
+	public void showCard(){
+		Cards card = deck.get(0);
+		System.out.println(card);
+	}
 	
 }
