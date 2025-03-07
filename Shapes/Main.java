@@ -77,6 +77,8 @@ public class Main {
                     System.out.println("Exiting the program...");
                     break;
 
+                default:
+                    System.out.println("Invalid choice! Please try again.");
             }
         } while (choice != 7);
     }
