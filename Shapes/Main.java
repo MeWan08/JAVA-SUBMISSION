@@ -40,6 +40,13 @@ public class Main {
                     Rectangle rectangle = new Rectangle(length, width);
                     rectangle.displayShape();
                     break;
+
+                case 3:
+                    System.out.print("Enter the side of the square: ");
+                    double side = scanner.nextDouble();
+                    Square square = new Square(side);
+                    square.displayShape();
+                    break;
             }
         } while (choice != 7);
     }
