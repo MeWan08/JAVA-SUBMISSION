@@ -63,6 +63,15 @@ public class Main {
                     Cylinder cylinder = new Cylinder(cylinderRadius, cylinderHeight);
                     cylinder.displayShape();
                     break;
+
+                case 6:
+                    System.out.print("Enter the base edge of the pyramid: ");
+                    double baseEdge = scanner.nextDouble();
+                    System.out.print("Enter the height of the pyramid: ");
+                    double pyramidHeight = scanner.nextDouble();
+                    EquilateralPyramid pyramid = new EquilateralPyramid(baseEdge, pyramidHeight);
+                    pyramid.displayShape();
+                    break;
             }
         } while (choice != 7);
     }
