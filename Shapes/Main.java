@@ -81,5 +81,7 @@ public class Main {
                     System.out.println("Invalid choice! Please try again.");
             }
         } while (choice != 7);
+
+        scanner.close();
     }
 }
