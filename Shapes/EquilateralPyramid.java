@@ -16,4 +16,9 @@ class EquilateralPyramid extends Shape implements Volume {
         double lateralArea = 4 * (0.5 * baseEdge * slantHeight);
         return baseArea + lateralArea;
     }
+
+    @Override
+    public double calculatePerimeter() {
+        return 4 * baseEdge;
+    }
 }
