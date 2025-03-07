@@ -1,3 +1,4 @@
+// Circle class extending Shape
 class Circle extends Shape {
     private double radius;
 
