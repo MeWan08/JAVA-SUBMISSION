@@ -21,4 +21,9 @@ class EquilateralPyramid extends Shape implements Volume {
     public double calculatePerimeter() {
         return 4 * baseEdge;
     }
+
+    @Override
+    public double calculateVolume() {
+        return (1.0 / 3.0) * Math.pow(baseEdge, 2) * height;
+    }
 }
