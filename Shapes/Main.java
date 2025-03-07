@@ -31,6 +31,15 @@ public class Main {
                     Circle circle = new Circle(radius);
                     circle.displayShape();
                     break;
+
+                case 2:
+                    System.out.print("Enter the length of the rectangle: ");
+                    double length = scanner.nextDouble();
+                    System.out.print("Enter the width of the rectangle: ");
+                    double width = scanner.nextDouble();
+                    Rectangle rectangle = new Rectangle(length, width);
+                    rectangle.displayShape();
+                    break;
             }
         } while (choice != 7);
     }
