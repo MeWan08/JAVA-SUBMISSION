@@ -54,6 +54,15 @@ public class Main {
                     Sphere sphere = new Sphere(sphereRadius);
                     sphere.displayShape();
                     break;
+
+                case 5:
+                    System.out.print("Enter the radius of the cylinder: ");
+                    double cylinderRadius = scanner.nextDouble();
+                    System.out.print("Enter the height of the cylinder: ");
+                    double cylinderHeight = scanner.nextDouble();
+                    Cylinder cylinder = new Cylinder(cylinderRadius, cylinderHeight);
+                    cylinder.displayShape();
+                    break;
             }
         } while (choice != 7);
     }
