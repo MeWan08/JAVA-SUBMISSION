@@ -25,6 +25,12 @@ public class Main {
             choice = scanner.nextInt();
 
             switch (choice) {
+                case 1:
+                    System.out.print("Enter the radius of the circle: ");
+                    double radius = scanner.nextDouble();
+                    Circle circle = new Circle(radius);
+                    circle.displayShape();
+                    break;
             }
         } while (choice != 7);
     }
