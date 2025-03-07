@@ -47,6 +47,13 @@ public class Main {
                     Square square = new Square(side);
                     square.displayShape();
                     break;
+
+                case 4:
+                    System.out.print("Enter the radius of the sphere: ");
+                    double sphereRadius = scanner.nextDouble();
+                    Sphere sphere = new Sphere(sphereRadius);
+                    sphere.displayShape();
+                    break;
             }
         } while (choice != 7);
     }
