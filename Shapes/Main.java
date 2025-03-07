@@ -12,6 +12,17 @@ public class Main {
         int choice;
 
         do {
+            // Display menu
+            System.out.println("\nMenu:");
+            System.out.println("1. Circle");
+            System.out.println("2. Rectangle");
+            System.out.println("3. Square");
+            System.out.println("4. Sphere");
+            System.out.println("5. Cylinder");
+            System.out.println("6. Equilateral Pyramid (Square Base)");
+            System.out.println("7. Exit");
+            System.out.print("Enter your choice: ");
+            choice = scanner.nextInt();
         } while (choice != 7);
     }
 }
