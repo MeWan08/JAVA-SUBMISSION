@@ -4,3 +4,7 @@ PRN: [Your PRN]
 Batch: [Your Batch]
 */
 
+import java.util.Scanner;
+
+public class Main {
+}
