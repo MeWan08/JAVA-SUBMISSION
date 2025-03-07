@@ -72,6 +72,11 @@ public class Main {
                     EquilateralPyramid pyramid = new EquilateralPyramid(baseEdge, pyramidHeight);
                     pyramid.displayShape();
                     break;
+
+                case 7:
+                    System.out.println("Exiting the program...");
+                    break;
+
             }
         } while (choice != 7);
     }
