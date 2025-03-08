@@ -2,6 +2,7 @@
 public abstract class Duck {
     FlyBehavior flyBehavior;
     SwimBehavior swimBehavior;
+
     public void performFly() {
         flyBehavior.fly();
     }
@@ -17,4 +18,6 @@ public abstract class Duck {
     public void setSwimBehavior(SwimBehavior sb) {
         swimBehavior = sb;
     }
+
+    public abstract void display();
 }
