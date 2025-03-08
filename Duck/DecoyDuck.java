@@ -4,4 +4,9 @@ public class DecoyDuck extends Duck {
         flyBehavior = new NotFly();
         swimBehavior = new Drown();
     }
+
+    @Override
+    public void display() {
+        System.out.println("I am a Decoy Duck.");
+    }
 }
