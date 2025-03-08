@@ -6,4 +6,6 @@ Batch: AIML A3
 
 // Main class to demonstrate Duck behaviors
 public class Main {
+    public static void main(String[] args) {
+    }
 }
