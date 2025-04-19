@@ -36,4 +36,12 @@ public class CalculatorOperations {
     public static double cube(double a) {
         return a * a * a;
     }
+
+    // Square Root
+    public static double squareRoot(double a) {
+        if (a < 0) {
+            throw new IllegalArgumentException("Cannot calculate square root of a negative number.");
+        }
+        return Math.sqrt(a);
+    }
 }
