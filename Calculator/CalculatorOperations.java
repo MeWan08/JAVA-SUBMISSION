@@ -31,4 +31,9 @@ public class CalculatorOperations {
     public static double square(double a) {
         return a * a;
     }
+
+    // Cube
+    public static double cube(double a) {
+        return a * a * a;
+    }
 }
