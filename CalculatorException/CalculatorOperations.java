@@ -13,4 +13,9 @@ public class CalculatorOperations {
     public static double subtract(double a, double b) {
         return a - b;
     }
+
+    // Multiplication
+    public static double multiply(double a, double b) {
+        return a * b;
+    }
 }
