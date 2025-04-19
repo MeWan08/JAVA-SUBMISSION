@@ -12,4 +12,9 @@ import java.util.Scanner;
  * It handles user input, displays the menu, and calls appropriate operations.
  */
 public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        boolean exit = false;
+
 }
