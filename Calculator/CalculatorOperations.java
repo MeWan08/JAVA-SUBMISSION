@@ -3,4 +3,9 @@
  * Each method handles specific exceptions and throws them for the caller to catch.
  */
 public class CalculatorOperations {
+
+    // Addition
+    public static double add(double a, double b) {
+        return a + b;
+    }
 }
