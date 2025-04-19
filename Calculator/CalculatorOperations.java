@@ -1,0 +1,6 @@
+/**
+ * This class contains static methods to perform various arithmetic operations.
+ * Each method handles specific exceptions and throws them for the caller to catch.
+ */
+public class CalculatorOperations {
+}
