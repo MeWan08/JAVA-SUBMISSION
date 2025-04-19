@@ -26,4 +26,9 @@ public class CalculatorOperations {
         }
         return a / b;
     }
+
+    // Square
+    public static double square(double a) {
+        return a * a;
+    }
 }
