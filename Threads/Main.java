@@ -11,5 +11,8 @@ Batch: 2023
  */
 public class Main {
     public static void main(String[] args) {
+        // Create Runnable instances for number and letter printing
+        Runnable numberTask = new NumberPrinter();
+        Runnable letterTask = new LetterPrinter();
     }
 }
