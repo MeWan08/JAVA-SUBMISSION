@@ -139,4 +139,17 @@ public class Main {
             scanner.nextLine();
         }
     }
+
+    private static void performCube(Scanner scanner) {
+        try {
+            System.out.print("Enter a number: ");
+            double num = scanner.nextDouble();
+            double result = CalculatorOperations.cube(num);
+            System.out.println("Result: " + result);
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid input. Please enter a numeric value.");
+            scanner.nextLine();
+        }
+    }
+
 }
