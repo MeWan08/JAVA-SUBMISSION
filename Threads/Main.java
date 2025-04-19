@@ -18,5 +18,10 @@ public class Main {
         // Create thread objects
         Thread thread1 = new Thread(numberTask, "NumberThread");
         Thread thread2 = new Thread(letterTask, "LetterThread");
+
+        // Start both threads
+        thread1.start();
+        thread2.start();
+
     }
 }
