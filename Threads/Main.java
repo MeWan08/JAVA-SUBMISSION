@@ -14,5 +14,9 @@ public class Main {
         // Create Runnable instances for number and letter printing
         Runnable numberTask = new NumberPrinter();
         Runnable letterTask = new LetterPrinter();
+
+        // Create thread objects
+        Thread thread1 = new Thread(numberTask, "NumberThread");
+        Thread thread2 = new Thread(letterTask, "LetterThread");
     }
 }
