@@ -69,4 +69,18 @@ public class Main {
         }
         scanner.close();
     }
+
+    private static void performAddition(Scanner scanner) {
+        try {
+            System.out.print("Enter first number: ");
+            double num1 = scanner.nextDouble();
+            System.out.print("Enter second number: ");
+            double num2 = scanner.nextDouble();
+            double result = CalculatorOperations.add(num1, num2);
+            System.out.println("Result: " + result);
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid input. Please enter numeric values.");
+            scanner.nextLine();
+        }
+    }
 }
