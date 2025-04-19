@@ -152,4 +152,17 @@ public class Main {
         }
     }
 
+    private static void performSquareRoot(Scanner scanner) {
+        try {
+            System.out.print("Enter a number: ");
+            double num = scanner.nextDouble();
+            double result = CalculatorOperations.squareRoot(num);
+            System.out.println("Result: " + result);
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid input. Please enter a numeric value.");
+            scanner.nextLine();
+        } catch (IllegalArgumentException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+    }
 }
