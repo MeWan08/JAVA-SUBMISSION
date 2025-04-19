@@ -23,5 +23,14 @@ public class Main {
         thread1.start();
         thread2.start();
 
+        // Wait for both threads to complete
+        try {
+            thread1.join();
+            thread2.join();
+        } catch (InterruptedException e) {
+            System.out.println("Main thread interrupted: " + e.getMessage());
+        }
+
+        System.out.println("\nBoth threads have finished execution.");
     }
 }
