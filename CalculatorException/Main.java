@@ -97,4 +97,18 @@ public class Main {
             scanner.nextLine();
         }
     }
+
+    private static void performMultiplication(Scanner scanner) {
+        try {
+            System.out.print("Enter first number: ");
+            double num1 = scanner.nextDouble();
+            System.out.print("Enter second number: ");
+            double num2 = scanner.nextDouble();
+            double result = CalculatorOperations.multiply(num1, num2);
+            System.out.println("Result: " + result);
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid input. Please enter numeric values.");
+            scanner.nextLine();
+        }
+    }
 }
