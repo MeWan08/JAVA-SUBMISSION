@@ -111,4 +111,20 @@ public class Main {
             scanner.nextLine();
         }
     }
+
+    private static void performDivision(Scanner scanner) {
+        try {
+            System.out.print("Enter dividend: ");
+            double num1 = scanner.nextDouble();
+            System.out.print("Enter divisor: ");
+            double num2 = scanner.nextDouble();
+            double result = CalculatorOperations.divide(num1, num2);
+            System.out.println("Result: " + result);
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid input. Please enter numeric values.");
+            scanner.nextLine();
+        } catch (ArithmeticException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+    }
 }
