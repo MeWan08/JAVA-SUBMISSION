@@ -127,4 +127,16 @@ public class Main {
             System.out.println("Error: " + e.getMessage());
         }
     }
+
+    private static void performSquare(Scanner scanner) {
+        try {
+            System.out.print("Enter a number: ");
+            double num = scanner.nextDouble();
+            double result = CalculatorOperations.square(num);
+            System.out.println("Result: " + result);
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid input. Please enter a numeric value.");
+            scanner.nextLine();
+        }
+    }
 }
