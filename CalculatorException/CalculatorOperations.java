@@ -9,4 +9,8 @@ public class CalculatorOperations {
         return a + b;
     }
 
+    // Subtraction
+    public static double subtract(double a, double b) {
+        return a - b;
+    }
 }
